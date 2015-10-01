@@ -1,0 +1,71 @@
+\documentclass{beamer}
+\mode<presentation> {
+
+\usetheme{Berlin}
+\usecolortheme{beaver}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\setbeamertemplate{footline}[page number]
+\setbeamertemplate{navigation symbols}{}
+
+\title[CLM 2015]{Cumulative Link Models}
+\author{Josh Lospinoso, PhD}
+
+\institute{
+\textit{josh@lospi.net}
+}
+\date{\today}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview}
+\tableofcontents
+\end{frame}
+
+\section{Statistical Modeling}
+\begin{frame}
+
+\end{frame}
+
+\section{Ordinal Categorical Data}
+\begin{frame}
+
+\end{frame}
+
+\section{Cumulative Link Model}
+\begin{frame}
+
+\end{frame}
+
+\section{What Could Go Wrong?}
+\begin{frame}
+
+\end{frame}
+
+\section{Example}
+\begin{frame}
+
+\end{frame}
+
+\section{Questions}
+\begin{frame}
+\frametitle{References}
+  \footnotesize{
+  \begin{thebibliography}{99}
+  \bibitem[McCullagh, 1989]{p1} P. McCullagh and J. Nelder (1989)
+  \newblock Generalized Linear Models, \emph{Chapman and Hall}, Second Ed.
+  \end{thebibliography}
+  }
+\end{frame}
+\begin{frame}
+\Huge{\centerline{Questions}}
+\end{frame}
+
+\end{document}
+}
