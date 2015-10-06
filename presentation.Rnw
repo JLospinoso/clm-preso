@@ -2,7 +2,7 @@
 %\mode<presentation> {
 
 \usetheme{Berlin}
-\usecolortheme{beaver}
+%\usecolortheme{beaver}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \setbeamertemplate{footline}[page number]
@@ -141,7 +141,59 @@ do.experiment <- function() {
 
 \section{Example}
 \begin{frame}
+\begin{figure}
+\centering
+\includegraphics[width=1.1\textwidth]{Sorensen2015}
+\label{fig:sorensen_2015}
+\end{figure}
+\end{frame}
 
+\begin{frame}
+\textbf{Hypothesis}: When treating rhytidosis, combining facial plastic surgery with CO$_2$ fractional laser treatment is superior to laser treatment alone.
+
+\vspace{25pt}
+
+Two pathologists evaluate Modified Fitzpatrick and Glogau before and after treatment
+\end{frame}
+
+\begin{frame}
+\textbf{Hypothesis}: When treating rhytidosis, combining facial plastic surgery with CO$_2$ fractional laser treatment is superior to laser treatment alone.
+
+\vspace{25pt}
+
+Two pathologists evaluate Modified Fitzpatrick and Glogau before and after treatment
+\end{frame}
+
+\begin{frame}
+  \begin{table}[]
+  \centering
+  \caption{Golgau via CLM estimation (probit)}
+  \label{my-label}
+  \begin{tabular}{lrr} \hline
+            & Estimate & p-value \\ \hline \hline
+  Treatment & -0.78    & 0.07    \\
+  Rater     & -0.18    & 0.61    \\
+  Est. Age  &  0.10    & 0.00    \\
+  Fitz. 345 & -1.42    & 0.00    \\
+  Glogau 34 &  1.61    & 0.02    \\ \hline
+  \end{tabular}
+  \end{table}
+\end{frame}
+
+\begin{frame}
+  \begin{table}[]
+  \centering
+  \caption{Modified Fitzpatrick via CLM estimation (probit)}
+  \label{my-label}
+  \begin{tabular}{lrr} \hline
+            & Estimate & p-value \\ \hline \hline
+  Treatment & -0.06    & 0.83    \\
+  Rater     & -1.29    & 0.00    \\
+  Est. Age  &  0.06    & 0.00    \\
+  Fitz. 345 & -0.54    & 0.09    \\
+  Glogau 34 &  0.15    & 0.71    \\ \hline
+  \end{tabular}
+  \end{table}
 \end{frame}
 
 \section{Questions}
@@ -151,6 +203,8 @@ do.experiment <- function() {
   \begin{thebibliography}{99}
   \bibitem[McCullagh, 1989]{p1} P. McCullagh and J. Nelder (1989)
   \newblock Generalized Linear Models, \emph{Chapman and Hall}, Second Ed.
+  \bibitem[Sorensen, 2015]{p1} Sorensen, Robert H., et al. (2015)
+  \newblock ``Combination Laser Resurfacing With Facial Plastic Surgery Is Superior to Lasers Alone.'' American Journal of Cosmetic Surgery 32.1 (2015): 12-17.
   \end{thebibliography}
   }
 \end{frame}
