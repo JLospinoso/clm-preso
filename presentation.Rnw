@@ -110,7 +110,57 @@ But they can \emph{illuminate} some phenomena we care about.
 Researchers in many disciplines have been taking this approach for decades. It works (and, importantly, scholarly journals tend to recognize this kind of analysis!)
 \end{frame}
 
+\begin{frame}{Parametric and Non-parametric Statistics}
+Consider these hypotheses (taken from Stuart et.\ al.\ 1999):
+\begin{enumerate}
+\item that a normal distribution has a specified mean and variance
+\item it has a given mean but unspecified variance
+\item a distribution is of normal form with both mean and variance unspecified
+\item that two unspecified continuous distributions are identical
+\end{enumerate}
+\vspace{10px}
+1/2 are \emph{parametric} hypotheses, 3/4 are \emph{non-parametric}.
+\end{frame}
+
 \section{Ordinal Categorical Data}
+\begin{frame}{Continuous Data}
+\begin{itemize}
+\item Speed
+\item Weight
+\item Distance
+\item Time
+\end{itemize}
+Continuous data \emph{not countable}.
+\end{frame}
+
+\begin{frame}{Discrete Data}
+\begin{itemize}
+\item Die roll
+\item Number of patients
+\item MCAT score
+\end{itemize}
+\vspace{10px}
+Discrete data is \emph{countable}.
+\end{frame}
+
+\begin{frame}{Categorical Data}
+\begin{itemize}
+\item Gender
+\item Race
+\item Hair color
+\end{itemize}
+Categorical data is about \emph{group membership}.
+\end{frame}
+
+\begin{frame}{Ordinal Categorical Data}
+\begin{itemize}
+\item Stages of illness (e.g.\ stage 3 cancer)
+\item Questionnaires (e.g.\ ``In general, how is your health?'')
+\item Modified Fitzpatrick scale (i.e.\ complexion)
+\end{itemize}
+Categorical data is about \emph{ordered group membership}.
+\end{frame}
+
 \begin{frame}{Ordinal Categorical Data}
 In this talk, we focus on a kind of data that is common when studying pathologies.
 
@@ -392,6 +442,8 @@ Two pathologists evaluate Modified Fitzpatrick and Glogau before and after treat
   \bibitem[Christensen, 2015]{p3} Christensen, R. H. B. (2015)
   \newblock ordinal---Regression Models for Ordinal Data. R package version 2015.6-28.
       http://www.cran.r-project.org/package=ordinal/
+  \bibitem[]{p4}Stuart A., Ord J.K, Arnold S. (1999)
+  \newblock Kendall's Advanced Theory of Statistics: Volume 2A---Classical Inference and the Linear Model, sixth edition.
   \end{thebibliography}
   }
 \end{frame}
